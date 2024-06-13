@@ -1,0 +1,13 @@
+*{
+    margin: opx;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/82/50/61/360_F_582506170_UzG3ESlYGtG5kUpkka32kosHn8bAumeS.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.text-center{
+  color: aliceblue;
+}

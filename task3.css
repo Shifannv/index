@@ -1,0 +1,32 @@
+
+#header{
+    text-align: center;
+color: rgb(3, 3, 3);
+font-size: 100px;
+font-family: "Rubik Wet Paint", system-ui;
+
+}
+
+#head{
+    text-align: center;
+    text-decoration: underline rgb(167, 239, 241);
+    color:rgb(183, 241, 214);
+}
+
+#para{
+    text-align:center below;
+    font-size: 30px;
+   
+    color: rgb(249, 245, 245) ;
+}
+
+body{
+  
+  background-image: url(/html/image/MNVIEW.jpeg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+

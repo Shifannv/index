@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Urbanist", sans-serif;
+    
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cbdVE9RG9w5-JfCmnE2NYfFeaPLCzBuVlw&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* background-color: white; */
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gold-yellow-gradient-studio-wall-well-use-as-background-layout-banner-product-presentation_1258-63554.jpg?size=338&ext=jpg&ga=GA1.1.1887574231.1711929600&semt=ais);
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-right: 20px; 
+    border: 2px solid #000000;
+}
+.header img{
+    width: 100px;
+    margin-left: 40px;
+    
+}
+.logo{
+    width: 100%;
+    height: 5rem;
+}
+#name{
+    font-size: 2.5rem;
+    margin-left: -750px;
+    font-weight: bold;
+}
+.headnav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+}
+.headnav a:hover {
+    font-weight: 800;
+}
+.headnav{
+    margin-right: 60px;
+}
+/* top body */
+
+#topbody {
+    padding: 20px;
+    margin-top:120px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    position: relative;
+    
+}
+
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 120px;
+    left: 10px;
+    right: 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: rgba(240, 187, 81, 0.724);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 0 #000
+}
+.animated{
+    animation-duration: 6s;}
+/* top sec */
+.topsec{
+    border: solid 0px rgb(5, 4, 4);
+    width: 97%;
+    height: 400px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+.seccontent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #0000005c;
+    border-radius: 10px;
+}
+.secimg {
+    width: 2580px;
+}
+.secimg img{
+   
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+
+}
+.sectext p{
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(244, 244, 244, 0.825);
+    word-spacing: 10px;
+    line-height: 2rem;
+}
+
+/* menu  */
+h1{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.menuitem {
+    position: relative;
+    width: 290px;
+    height: 430px;
+    border: solid 1px #ccc;
+    box-shadow: 4px 4px 5px black;
+    padding: 10px;
+    margin: 30px;
+    color: white;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/realistic-grainy-texture-design_23-2149252552.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menuitem img {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.menuitem span {
+    display: block;
+    font-size: 1.2em;
+    color: white;
+}
+
+.menuitem a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(210, 192, 30);
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menuitem a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+.menugrid{
+  display: flex
+}
+/* footer  */
+#footer{
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.514);
+
+
+}
+.about{
+    height: 350px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 30px;
+    word-spacing: 0.5rem;
+    line-height: 2rem;
+    margin-left: 60px;
+}
+.about h3{
+    color: white;
+    font-weight: 800;
+}
+.about p{
+    color: rgba(255, 255, 255, 0.712);
+}
